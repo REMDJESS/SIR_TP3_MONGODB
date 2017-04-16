@@ -29,7 +29,7 @@ public static void main( String[] args ) throws UnknownHostException
         ds.save(p);
 
         Person toto = new Person();
-        toto.setName("toto");
+        toto.setName("coucou");
         //set address
         toto.createAddress("321 Any street","Any city","654 321","Any country");
         ds.save(toto);
